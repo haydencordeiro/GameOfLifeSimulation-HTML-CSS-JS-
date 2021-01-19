@@ -6,7 +6,7 @@ function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min)>5?1:0; 
 }  
 function createRandommatrix(){
-
+    // console.log('sts')
     for(i=0;i<8;i++){
         let temp=[]
         for(j=0;j<11;j++){
