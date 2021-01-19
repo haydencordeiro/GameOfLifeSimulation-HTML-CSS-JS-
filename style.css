@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  background-color: black;
 }
 
 .grid-container {
@@ -28,12 +29,20 @@ body {
   width: 4.5rem;
 }
 .alive {
-  background-color: green;
-  border: 1px solid black;
+  /* background-color: green; */
+  /* border: 1px solid black; */
+  background: rgba(39, 179, 118, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(128, 169, 181, 0.2);
+  border-radius: 15%;
 }
 .dead {
-  background-color: red;
-  border: 1px solid black;
+  background: rgba(191, 33, 47, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(128, 169, 181, 0.2);
+  border-radius: 15%;
 }
 
 @media only screen and (max-width: 600px) {

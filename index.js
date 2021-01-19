@@ -1,6 +1,7 @@
 
 
 var arr=[]
+var pre=[]
 function randomNumber(min, max) {  
     return Math.floor(Math.random() * (max - min) + min)>5?1:0; 
 }  
@@ -98,6 +99,7 @@ function GameOfLife(){
         }
         // break
     }
+
     arr=[...temparr]
     
 }
@@ -107,9 +109,11 @@ createRandommatrix()
 
 function main(){
     
-    console.log(arr)    
+    
     displayArrGrid()
     GameOfLife()
+
+
     setInterval(main,1000);
 }
 
