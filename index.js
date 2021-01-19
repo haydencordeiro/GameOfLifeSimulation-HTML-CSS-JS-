@@ -8,9 +8,9 @@ function randomNumber(min, max) {
 function createRandommatrix(){
     // console.log('sts')
     arr=[]
-    for(i=0;i<8;i++){
+    for(i=0;i<18;i++){
         let temp=[]
-        for(j=0;j<11;j++){
+        for(j=0;j<18;j++){
         temp.push(randomNumber(0, 10))
             
         }
